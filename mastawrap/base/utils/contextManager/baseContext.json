@@ -1,0 +1,8 @@
+{
+  "global": {},
+  "application": {
+    "name": "MastaWrapper",
+    "author": ["Alex Valcourt Caron"],
+    "version": "pre-alpha"
+  }
+}

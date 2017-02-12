@@ -1,0 +1,9 @@
+
+.idea/
+mastawrap/__pycache__/
+mastawrap/base/__pycache__/
+mastawrap/base/templates/__pycache__/
+mastawrap/base/utils/__pycache__/
+mastawrap/constructor/__pycache__/
+mastawrap/constructor/workCamp/__pycache__/
+mastawrap/constructor/workCamp/farms/__pycache__/
