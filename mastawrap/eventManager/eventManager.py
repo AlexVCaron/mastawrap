@@ -1,4 +1,4 @@
-from mastawrap.eventManager.metaEventManger import MetaEventManager
+from mastawrap.eventManager.metaEventManager import MetaEventManager
 
 
 class EventManager(metaclass=MetaEventManager):
