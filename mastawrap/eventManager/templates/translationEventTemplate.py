@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from mastawrap.constructor.constructorEvents.translationEvent import TranslationEvent
+from mastawrap.eventManager.events.translationEvent import TranslationEvent
 
 
 class TranslationEventTemplate:
