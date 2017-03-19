@@ -1,6 +1,7 @@
 
 .idea/
 mastawrap/__pycache__/
+mastawrap/events/__pycache__/
 mastawrap/base/__pycache__/
 mastawrap/base/templates/__pycache__/
 mastawrap/base/utils/__pycache__/
