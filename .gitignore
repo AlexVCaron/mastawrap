@@ -1,10 +1,8 @@
 
 .idea/
-mastawrap/__pycache__/
-mastawrap/events/__pycache__/
-mastawrap/base/__pycache__/
-mastawrap/base/templates/__pycache__/
-mastawrap/base/utils/__pycache__/
-mastawrap/.old/constructor/__pycache__/
-mastawrap/.old/constructor/workCamp/__pycache__/
-mastawrap/.old/constructor/workCamp/farms/__pycache__/
+mastawrap/.old/
+mastawrap/base/templates/languages/
+mastawrap/interpreters/
+test.py
+**/__pycache__/
+
