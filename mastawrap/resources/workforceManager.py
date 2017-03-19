@@ -1,0 +1,4 @@
+
+
+class WorkforceManager:
+    pass

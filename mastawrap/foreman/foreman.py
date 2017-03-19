@@ -1,5 +1,4 @@
-class WorkforceManager:
-    pass
+from mastawrap.resources.workforceManager import WorkforceManager
 
 
 class Foreman:
