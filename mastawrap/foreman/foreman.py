@@ -4,7 +4,6 @@ from mastawrap.resources.workforceManager import WorkforceManager
 class Foreman:
     project = None
     workbook = dict()
-    workforceManager = []
 
     def __init__(self, foreman):
         fields = self.__class__.__dict__.keys()
@@ -18,7 +17,7 @@ class Foreman:
         self.workbook[task.id] = task.task
 
     def enrollManager(self, count):
-        self.workforceManager.extend([WorkforceManager() for i in range(count)])
+        WorkforceManager.create(count)
 
     # Enrolls workforce for specific managers specified in specs by a certain ratio each
     # on the overall supplied count. Remaining workforce from ratios calculation are
@@ -33,7 +32,8 @@ class Foreman:
 
     def _enrollWorkforceSpec(self, count, spec):
         manager = self._fetchManager(spec["manager"])
+        manager.enroll(count, spec["workforce"])
 
     def _fetchManager(self, managerType):
-        pass
+        return WorkforceManager.query(managerType).findUnique()
 
