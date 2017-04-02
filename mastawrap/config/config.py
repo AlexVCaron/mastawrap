@@ -1,5 +1,4 @@
-from mastawrap.base.utils.utils import get_base_path
-
+from mastasupport.utils.paths import get_base_path
 
 CONFIG = {
     "base_path": get_base_path,

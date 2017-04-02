@@ -1,6 +1,0 @@
-{
-  "name": "worker_name",
-  "language": "worker_language",
-  "mode": "transaction_mode",
-  "used": "is_being_used"
-}

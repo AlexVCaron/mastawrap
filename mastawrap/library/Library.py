@@ -1,7 +1,8 @@
-from mastawrap.base.resource import Resource
-from mastawrap.base.utils.utils import get_base_path
-from mastawrap.base.utils.contextManager.contextManager import ContextManager
 import os
+
+from mastawork.base.contextManager import ContextManager
+from mastawork.base.resource import Resource
+from mastasupport.utils.paths import get_base_path
 
 
 class Library(Resource):

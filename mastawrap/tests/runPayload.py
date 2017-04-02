@@ -1,6 +1,6 @@
 from mastawrap.constructor.workCamp.manager import Manager
 
-from mastawrap.base.utils.utils import get_logs_path
+from mastasupport.utils.paths import get_logs_path
 
 context = {
     "a": "A", "b": "B",

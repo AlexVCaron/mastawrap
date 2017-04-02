@@ -1,7 +1,7 @@
 
 .idea/
 mastawrap/.old/
-mastawrap/base/templates/languages/
+mastawrap/.old/base/templates/languages/
 mastawrap/interpreters/
 test.py
 **/__pycache__/
